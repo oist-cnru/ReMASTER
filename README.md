@@ -17,9 +17,13 @@ Simulation for the consecutive relearning task (wherein phase 1 is exactly the s
 
 ## optional arguments:
 --model        The model used, either MTSRNN or LSTM (default: MTSRNN)
+
 --noise        Scale of initial neuronal noise, only works for MTSRNN (default: 0.2)
+
 --singlev      If True, the higher level does not learn the value function with gamma2, only works for MTSRNN (default: False)
+
 --lowstop3     If True, the lower-level synaptic weight will be frozen in phase 3, only works for MTSRNN (default: False)
+
 --seed         Random seed (default: 0)
 
 ## Data saving
