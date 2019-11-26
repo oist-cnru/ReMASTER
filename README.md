@@ -1,8 +1,14 @@
-# Requirement
+## Introduction
+Codes for the paper 'Self-organization of action hierarchy and compositionality by reinforcement learning with recurrent networks' (https://arxiv.org/abs/1901.10113) by Dongqi Han, Kenji Doya and Jun Tani.
+
+Cognitive Neurorobotics Research Unit, Okinawa Institute of Science and Technology: https://groups.oist.jp/cnru
+
+
+## Requirement
 
 Python >= 3.5
 
-## External Libraries
+### External Libraries
 
 - tensorflow = 1.10.0
 - numpy >= 1.16.1
@@ -10,10 +16,16 @@ Python >= 3.5
 - gym >= 0.10.9
 - matplotlib >= 2.2.2 (only for plotting in Jupyter Notebook)
 
-# To run the codes
-Simulation for the consecutive relearning task (wherein phase 1 is exactly the sequential goal reaching task) can be started by
+## To run the codes
+Simulation for the consecutive relearning task (wherein phase 1 is exactly the sequential goal reaching task) using ReMASTER can be started by
 
 `python Consecutive_Relearning_Task.py`
+
+If you want to run the alternative models, such as LSTM, you can 
+
+`python Consecutive_Relearning_Task.py --model=LSTM`
+
+And see the following for other options
 
 ## optional arguments:
 <pre>
